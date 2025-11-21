@@ -1,0 +1,170 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: pink;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  padding: 16px;
+  background-color: blue;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #a7a3a3;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: rgb(83, 30, 255);
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<h1 style="background-color:green;" align="center" ><b><u>FORM</u></b></h1>
+<form>
+<fieldset>
+
+<h2 style="background-color:yellow;" align="center"><b>FILL YOUR INFORMATION</h2></b>
+
+User name:
+	<input type="text"><br>
+	<br>
+Email Id:
+
+	<input type="text"><br>
+	<br>
+
+<label for="password">Password: </label>  
+              <input type="password" id="password" name="password"/> <br/> 
+
+
+<br>
+</br>
+
+<label for="gender">Gender: </label>  
+              <input type="radio" id="gender" name="gender" value="male"/>Male  
+              <input type="radio" id="gender" name="gender" value="female"/>Female <br/> 
+
+<br>
+</br>
+ 
+<label for="Highest Qualification">Highest Qualification:</label>
+<select name="Highest Qualification" id="Highest Qualification">
+<option value="P.hD">P.hD</option>
+<option value="M.Tech">M.Tech</option>
+<option value="B.Tech">B.Tech</option>
+<option value="Diploma">Diploma</option>
+<option value="Inter">Inter</option>
+<option value="SSC">SSC</option>
+<option value="Others">Others</option>
+</select>
+
+<br>
+</br>
+
+<label for="Technical Skills">Technical Skills:</label><br></br>
+
+<input type="checkbox" name="subject" id="Ms Office"/>
+<label for="Ms Office">Ms Office</label><br>
+
+<input type="checkbox" name="subject" id="C"/>
+<label for="C">C</label><br>
+
+<input type="checkbox" name="subject" id="C++">
+<label for="C++">C++</label><br>
+
+<input type="checkbox" name="subject" id="Java">
+<label for="Java">Java</label><br>
+
+<input type="checkbox" name="subject" id="MySql">
+<label for="MySql">MySql</label><br>
+
+<input type="checkbox" name="subject" id="HTML">
+<label for="HTML">HTML</label><br>
+
+<input type="checkbox" name="subject" id="XML">
+<label for="XML">XML</label><br>
+
+<input type="checkbox" name="subject" id="CSS">
+<label for="CSS">CSS</label><br>
+
+<input type="checkbox" name="subject" id="Java Script">
+<label for="Java Script">Java Script</label><br>
+
+<input type="checkbox" name="subject" id="Ruby">
+<label for="Ruby">Ruby</label><br>
+
+<input type="checkbox" name="subject" id="Perl">
+<label for="Perl">Perl</label><br>
+
+<input type="checkbox" name="subject" id="TCL/TK">
+<label for="TCL/TK">TCL/TK</label><br>
+
+<input type="checkbox" name="subject" id="PHP">
+<label for="PHP">PHP</label><br>
+
+<input type="checkbox" name="subject" id="Python">
+<label for="Python">Python</label><br>
+
+<label for="fileselect">upload Resume:</label><input type="file" name="upload" id="fileselect"><br><br>
+
+<label for="fileselect">upload photo:</label><input type="file" name="upload" id="fileselect"><br><br>
+
+
+<label for="Description">Address:</label><textarea rows="5" cols"50" name="Description" id="Description"></textarea><br><br>
+
+<label for="Clicks on">Clicks on:</label><input type="submit" name="submit"><br><br>
+
+<button style="background-color:green;" id="Submit">submit</button>
+<button style="background-color:green;" id="Reset">reset</button>
+
+</fieldset>
+</body>
+</html>
